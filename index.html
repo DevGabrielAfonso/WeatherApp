@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima & Tempo | LIUK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <header><h1>Clima & Tempo</h1></header>
+        <form id="form">
+            <input placeholder="Digite sua cidade" id="cidade" type="text">
+            <button type="submit" onclick="getWeather()">Buscar</button>
+        </form>
+    
+        <div id="resultado">
+            <p id="resultado_head"></p>
+            <p id="hora"></p>
+            <p id="temperatura"></p>
+            <p id="sensacao"></p>
+            <p id="vento"></p>
+            <p id="clima"></p>
+            <p id="umidade"></p>
+        </div>
+    <footer><b>© @Gabriel_LIUK <a href="https://github.com/DevGabrielAfonso">GitHub</a></b></footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

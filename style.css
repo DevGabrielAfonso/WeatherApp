@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transform: translateY(0px);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20pt;
+}
+
+input{
+    padding: 12px;
+    border-radius: 4px;
+    border: 2px solid rgb(102, 0, 0);
+    background-size: 22px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 12pt;
+}
+
+input:focus{
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(161, 29, 29);
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(102, 0, 0);
+    transition-duration: 0.05s;
+}
+
+button:hover{
+    background-color: rgb(255, 135, 135);
+    border: 1px solid rgb(255, 237, 237);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    transform: translateY(550px);
+}
